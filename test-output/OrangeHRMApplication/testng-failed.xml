@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeHRMApplication]">
+  <test name="LoginUsingLog4J">
+    <classes>
+      <class name="com.Log4j.OHRMLogin"/>
+    </classes>
+  </test> <!-- LoginUsingLog4J -->
+  <test name="LoginUsingLog4J(failed)">
+    <classes>
+      <class name="com.Log4j.OHRMLogin">
+        <methods>
+          <include name="logOutTest"/>
+          <include name="welComeAdminTest"/>
+          <include name="orangeHRMApplicationLaunch"/>
+          <include name="logInTest"/>
+        </methods>
+      </class> <!-- com.Log4j.OHRMLogin -->
+    </classes>
+  </test> <!-- LoginUsingLog4J(failed) -->
+</suite> <!-- Failed suite [OrangeHRMApplication] -->

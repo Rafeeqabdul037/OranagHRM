@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRMApplication">
+<test name="LoginUsingLog4J">
+<classes>
+<class name="com.Log4j.OHRMLogin"/>
+</classes>
+</test>
+</suite>
